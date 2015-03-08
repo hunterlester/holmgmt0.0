@@ -1,0 +1,1 @@
+This folder holds the file tree and contents of my final project for Geekwise Academy, Bootcamp 1, March 2015
