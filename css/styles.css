@@ -1,0 +1,86 @@
+/*css selectors organized in same order as index.html*/
+
+* {
+	border-radius: 0 0 4px 4px;
+}
+
+body {
+	background-image: url(../img/wetgrass.jpg);
+	background-size: 75%;
+	background-position: center;
+	font-family: georgia;
+	background-attachment: fixed;
+}
+
+div.container {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	opacity: .9;
+	height: 1000px;
+	border: 1px solid black
+}
+
+nav ul {
+	margin-right: 40px;
+	list-style-type: none;
+
+}
+
+nav ul li {
+	text-decoration: none;
+	background-color: #B2B2CC;
+	padding: 1%;
+	display: inline;
+	border-radius: 0 0 4px 4px;
+}
+
+a:link{
+	text-decoration: none;
+	color: #1E0034;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+a:active {
+	color: #1A4C33;
+
+}
+
+header {
+	padding: 3%;
+}
+
+h3#fresno {
+	text-align: right;
+}
+
+h4 {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#threelinks p:hover {
+	font-style: italic;
+}
+
+#threelinks p {
+	text-align: center;
+}
+
+section#left {
+	padding: 3%;
+	width: 400px;
+	float: left;
+}
+
+section#right {
+	padding: 3%;
+	width: 400px;
+	float: right;
+}
