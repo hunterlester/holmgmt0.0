@@ -1,7 +1,8 @@
-/*css selectors organized in same order as index.html*/
+/*css selectors organized in same order as html
+tags appear in index.html*/
 
 * {
-	border-radius: 0 0 4px 4px;
+	border-radius: 4px;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 	background-position: center;
 	font-family: georgia;
 	background-attachment: fixed;
+	color: #2A1506;
 }
 
 div.container {
@@ -18,26 +20,24 @@ div.container {
 	background-color: #ffffff;
 	opacity: .9;
 	height: 1000px;
-	border: 1px solid black
+	border: 1px solid black;
 }
 
-nav ul {
+ul {
 	margin-right: 40px;
 	list-style-type: none;
-
 }
 
-nav ul li {
+ul li {
 	text-decoration: none;
 	background-color: #B2B2CC;
 	padding: 1%;
 	display: inline;
-	border-radius: 0 0 4px 4px;
 }
 
-a:link{
+a:link, a:visited {
 	text-decoration: none;
-	color: #1E0034;
+	color: #330033;
 }
 
 a:hover {
@@ -46,30 +46,23 @@ a:hover {
 
 a:active {
 	color: #1A4C33;
-
 }
 
 header {
-	padding: 3%;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
 }
 
 h3#fresno {
 	text-align: right;
 }
 
-h4 {
-	text-align: center;
-}
-
-ul {
-	list-style-type: none;
-}
-
-#threelinks p:hover {
-	font-style: italic;
-}
-
-#threelinks p {
+.secondarynav li {
+	display: block;
+	padding: 0px;
+	width: 300px;
+	margin: auto;
 	text-align: center;
 }
 
@@ -83,4 +76,9 @@ section#right {
 	padding: 3%;
 	width: 400px;
 	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
 }
