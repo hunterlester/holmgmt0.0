@@ -1,17 +1,20 @@
 /*css selectors organized in same order as html
 tags appear in index.html*/
 
-* {
-	border-radius: 4px;
-}
-
 body {
 	background-image: url(../img/wetgrass.jpg);
 	background-size: 75%;
 	background-position: center;
-	font-family: georgia;
+	font-family: "Palatino Linotype";
 	background-attachment: fixed;
-	color: #2A1506;
+	margin: 0 auto;
+}
+
+div.headercontainer {
+	background-color: #ffffff;
+	height: 140px;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 div.container {
@@ -19,66 +22,118 @@ div.container {
 	margin: 0 auto;
 	background-color: #ffffff;
 	opacity: .9;
-	height: 1000px;
-	border: 1px solid black;
-}
-
-ul {
-	margin-right: 40px;
-	list-style-type: none;
-}
-
-ul li {
-	text-decoration: none;
-	background-color: #B2B2CC;
-	padding: 1%;
-	display: inline;
-}
-
-a:link, a:visited {
-	text-decoration: none;
-	color: #330033;
-}
-
-a:hover {
-	color: #ffffff;
-}
-
-a:active {
-	color: #1A4C33;
+	color: #000000;
+	margin-bottom: 76px;
+	margin-top: 0px;
 }
 
 header {
-	padding-left: 1%;
-	padding-right: 1%;
-	text-align: center;
+	text-align: left;
+	padding: 1%;
+	margin-left: 0px;
+	font-family: "Arial Black";
 }
 
-h3#fresno {
-	text-align: right;
-}
-
-.secondarynav li {
-	display: block;
-	padding: 0px;
-	width: 300px;
-	margin: auto;
-	text-align: center;
-}
-
-section#left {
-	padding: 3%;
-	width: 400px;
+img#icon {
+	width: 20%;
 	float: left;
+	min-height: 115px;
+	min-width: 196px
 }
 
-section#right {
+h1 {
+	margin-top: 0px;
+	font-size: 250%;
+	padding-left: 215px;
+}
+
+h2 {
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-left: 40px;
+	font-family: "Palatino Linotype";
+	clear: both;
+	font-size: 150%;
+	font-weight: 100;
+	text-align: left;
+}
+
+div.secondarynav {
+	padding: 1px;
+	margin: 0 auto;
+	float: left;
+	width: 330px;
+	background-color: #ffffff;
+}
+
+div.secondarynav p {
+	background-color: #000000;
+	text-align: center;
+	margin: 0 auto;
+	padding: 2px;
+	font-size: 120%;
+}
+
+img {
+	width: 100%;
+	min-height: 214px;
+	max-height: 214px;
+	opacity: 1;
+}
+
+section#stocking {
 	padding: 3%;
-	width: 400px;
-	float: right;
+	clear: both;
+}
+
+section#finance {
+	padding: 3%;
+}
+
+section#marketing {
+	padding: 3%;
 }
 
 footer {
 	clear: both;
 	text-align: center;
+}
+
+.navcontainer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000000;
+	opacity: .95;
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0 0 0 0;
+}
+
+ul li {
+	text-decoration: none;
+	background-color: #000000;
+	padding: 1%;
+	display: inline-block;
+	font-weight: bold;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #999999;
+}
+
+a:active {
+	color: #1A4C33;
 }
