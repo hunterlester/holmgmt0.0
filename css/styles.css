@@ -168,6 +168,7 @@ section a:hover {
 ul li ul li, ul li ul li a {
 	position: relative;
 	left: 0px;
+	-webkit-transition: left 2s; /*Safari*/
 	transition: left 2s;
 }
 
